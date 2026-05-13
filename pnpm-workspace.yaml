@@ -16,7 +16,7 @@ overrides:
   vitest: 'catalog:'
 minimumReleaseAgeExclude:
   - vite-plus
-  - "@voidzero-dev/*"
+  - '@voidzero-dev/*'
 peerDependencyRules:
   allowAny:
     - vite
