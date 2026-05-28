@@ -81,7 +81,6 @@
     "vite": "catalog:",
     "vite-plugin-svgr": "5.2.0",
     "vite-plus": "catalog:",
-    "vitest": "catalog:",
     "vitest-browser-react": "2.2.0"
   },
   "simple-git-hooks": {

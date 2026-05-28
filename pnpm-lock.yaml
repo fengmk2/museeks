@@ -9,9 +9,6 @@ catalogs:
     vite-plus:
       specifier: https://pkg.pr.new/voidzero-dev/vite-plus@1588
       version: 0.1.22
-    vitest:
-      specifier: ^4.1.5
-      version: 4.1.7
 
 overrides:
   '@voidzero-dev/vite-plus-core': https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@5577b0154f33d1480a3c96347e94fa5d2094de2e
@@ -182,9 +179,6 @@ importers:
       vite-plus:
         specifier: 'catalog:'
         version: https://pkg.pr.new/voidzero-dev/vite-plus@1588(@types/node@24.12.4)(@voidzero-dev/vite-plus-core@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1588(@types/node@24.12.4)(jiti@2.7.0)(typescript@6.0.3))(jiti@2.7.0)(playwright@1.60.0)(typescript@6.0.3)(webdriverio@9.27.2)
-      vitest:
-        specifier: 'catalog:'
-        version: 4.1.7(@types/node@24.12.4)(@vitest/browser-playwright@4.1.7)(@vitest/browser-preview@4.1.7)(@vitest/browser-webdriverio@4.1.7)(@voidzero-dev/vite-plus-core@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1588(@types/node@24.12.4)(jiti@2.7.0)(typescript@6.0.3))
       vitest-browser-react:
         specifier: 2.2.0
         version: 2.2.0(@types/react-dom@19.2.3(@types/react@19.2.15))(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(vitest@4.1.7(@types/node@24.12.4)(@vitest/browser-playwright@4.1.7)(@vitest/browser-preview@4.1.7)(@vitest/browser-webdriverio@4.1.7)(@voidzero-dev/vite-plus-core@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1588(@types/node@24.12.4)(jiti@2.7.0)(typescript@6.0.3)))
