@@ -4,7 +4,9 @@ saveExact: true
 strictPeerDependencies: true
 updateNotifier: false
 allowBuilds:
+  edgedriver: false
   esbuild: true
+  geckodriver: false
   simple-git-hooks: true
 
 minimumReleaseAgeExclude:
